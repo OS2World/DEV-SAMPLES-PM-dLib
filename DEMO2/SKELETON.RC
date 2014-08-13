@@ -1,0 +1,17 @@
+#include <os2.h>
+#include "skeleton.h"
+
+ICON ID_APPNAME SKELETON.ICO
+
+STRINGTABLE LOADONCALL MOVEABLE
+BEGIN
+    ID_APPNAME      "Skeleton Application"
+END
+
+MENU ID_APPNAME
+{
+    MENUITEM "~About", IDM_ABOUT
+}
+
+
+
